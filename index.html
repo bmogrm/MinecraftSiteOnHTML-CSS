@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
 </head>
 <body>
 	<div class="global-banner">
@@ -33,8 +34,31 @@
 			<span class="get-mine-text">получить minecraft</span>
 		</button>
 	</header>	
-	<section>
-		<!-- Продолжить работу -->
+	<section class="welcomeSection">
+		<div class="homehero">
+			<div class="maininfo">
+				<h1 class="mainH1">добро пожаловать на Официальный сайт minecraft</h1>
+				<p class="mainPInfo">Новые игры, обновления и способы игры — приобщайся к одному из самых больших игровых сообществ в мире и начинай крафтить уже сегодня!</p>
+				<button class="get-mine" href="#">
+					<span class="get-mine-text">получить minecraft</span>
+				</button>
+			</div>
+		</div>
 	</section>
+	<section class="moregame" style="background-image: url('img/bg-wool-dark.png');">
+		<div class="gameGalery">
+			<h2 class="mgTitle">ИГРЫ И АДДОНЫ MINECRAFT</h2>
+			<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+				<div class="gallery-cell" style="background-image: url('img/carousel/games_subnav_educationedition-300x465.avif');">
+					<h1>Ghbdtdasd</h1>
+				</div>
+				<div class="gallery-cell"></div>
+				<div class="gallery-cell"></div>
+				<div class="gallery-cell"></div>
+				<div class="gallery-cell"></div>
+			</div>
+		</div>
+	</section>
+	<script src="js/flickity.pkgd.min.js"></script>
 </body>
 </html>

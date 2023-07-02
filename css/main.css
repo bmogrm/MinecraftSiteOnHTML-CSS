@@ -1,9 +1,11 @@
 body {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: 'Noto Sans';
 	font-weight: 400;
 	text-transform: uppercase;
+	color: #ffff;
 }
 
 .global-banner {
@@ -68,8 +70,86 @@ header {
 .get-mine-text {
 	letter-spacing: 1px;
 	padding: 16px 24px;
+	background: green;
 }
 
-.heroimg {
-	/* Тут тоже */
+.welcomeSection {
+	background: #000;
+}
+
+.homehero {
+	margin: 0 auto;
+	height: 600px;
+	width: 1200px;
+	background-image: url('../img/home-hero-1200x600.webp');
+}
+
+.maininfo {
+	padding: 100px 0 0 100px;
+	width: 540px;
+}
+
+.mainH1 {
+	margin: 0 0 10px;
+	font-size: 36px;
+}
+
+.mainPInfo {
+	margin: 0 0 45px;
+	font-size: 18px;
+}
+
+.moregame {
+	padding-top: 50px;
+}
+
+.gameGalery {
+	background: #ffff;
+	padding-top: 75px;
+	margin: 0 auto;
+	width: 1140px;
+	height: 800px;
+}
+
+.mgTitle {
+	text-align: center;
+	margin: 0 0 50px;
+
+	font-size: 28px;
+	color: #000;
+}
+/*  */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+	margin: 0 auto;
+  background: #EEE;
+	width: 860px;
+}
+
+.gallery-cell {
+	background-size: 10%;
+  width: 220px;
+  height: 338px;
+  margin-right: 100px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 338px;
+  font-size: 80px;
+  color: white;
+}
+
+ol {
+	none
 }
