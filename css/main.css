@@ -20,6 +20,13 @@ body {
 	padding: 0 13px;
 	color: #a0e080;
 	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+
+.gb-text:hover {
+	color: white;
+	cursor: pointer;
 }
 
 header {
@@ -45,6 +52,13 @@ header {
 	padding-right: 13px;
 	padding-left: 13px;
 	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+
+.global-header:hover {
+	color: #a0e080;
+	cursor: pointer;
 }
 
 .list {
@@ -71,6 +85,14 @@ header {
 	letter-spacing: 1px;
 	padding: 16px 24px;
 	background: green;
+	border: 1px solid #000;
+	-webkit-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+
+.get-mine-text:hover {
+	opacity: 0.5;
+	cursor: pointer;
 }
 
 .welcomeSection {
@@ -97,6 +119,7 @@ header {
 .mainPInfo {
 	margin: 0 0 45px;
 	font-size: 18px;
+	text-transform: none;
 }
 
 .moregame {
@@ -127,29 +150,40 @@ header {
 
 .gallery {
 	margin: 0 auto;
-  background: #EEE;
+
 	width: 860px;
 }
 
 .gallery-cell {
-	background-size: 10%;
+	background-repeat: no-repeat;
   width: 220px;
-  height: 338px;
+	height: 500px;
   margin-right: 100px;
-  background: #8C8;
   counter-increment: gallery-cell;
 }
 
 /* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 338px;
-  font-size: 80px;
-  color: white;
+
+
+.sas {
+	text-align: center;
+	padding-top: 340px;
+	color: #288123;
+	width: 220px;
+	height: auto;
+	word-wrap: break-word;
+	font-weight: 700;
+	line-height: 24px;
+	font-size: 18px;
 }
 
-ol {
-	none
+.carousel-des {
+	color: #202020;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: none;
+	font-family: 'Noto Sans';
+	text-align: center;
+	vertical-align: bottom;
 }
