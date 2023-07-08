@@ -6,6 +6,7 @@
 ![Alt text](/forReadMe/Officialsite.PNG)
 
 ## Что получилось?
+Ознакомиться с примером сайта можно на [GitHub Pages](https://bmogrm.github.io/MinecraftSiteOnHTML-CSS/)
 ![](/forReadMe/example.gif)
 
 ## Что использовалось?
